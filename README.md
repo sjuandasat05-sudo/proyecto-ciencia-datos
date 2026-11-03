@@ -1,73 +1,34 @@
-EXPLORACION DE DATOS CON PYTHON Y PANDAS
+# MOMENTO 1: RECONOCIMIENTO DEL PROYECTO Y DE LOS DATASETS
 
-AUTOR 
+# Accidentalidad vial en Medellín 2019-2023
 
-JUAN DAVID SALAZAR TORRES
+AUTOR:Juan David 
 
-ANALISIS Y DESARROLLO DE SOFTWARE
+# PROPOSITO
 
-FICHA 3169901
+Ayudar a la Secretaría de Movilidad a planear controles viales, campañas de prevención y presencia de agentes de tránsito en las épocas más críticas.
 
-SENA (CTMA)
+## PREGUNTA ANALITICA
 
-DESCRIPCION
-
-Proyecto diseñado para estudiar y comprender el analisis de datos en Instacart utilizando python y librerias panda.
-
-El objetivo es descargar archivos .CSV para poder extraer datos por medio del lenguaje python,ademas se estudia la estructura DataFrames.
+¿En qué meses del año se concentra el mayor número de accidentes de tránsito en Medellín entre 2015 y 2019?
 
 
-TECNOLOGIAS UTILIZADAS
+# PAGINAS DE EXTRACCION DE INFORMACION
 
--Python 3.12
-
--Pandas
-
--NumPy
-
--JupiterLab
-
--Git
-
--GitHub
-
-ESTRUCTURA DEL PROYECTO
-
-instacart-analisis/
-├── data/
-├── notebooks/
-├── .gitignore
-├── requirements.txt
-└── README.md
-
-RAMAS 
-
-.MAIN
-
-.DEVELOP
-
-TAGS
-
-. v0.1
-
-. v0.2
-
-. v0.3
-
-. v0.4
+FUENTE: Alcaldia de Medellin ,Secretaria de Movilidad ,Portal MEData
 
 
-EJECUCION 
 
-ACTIVAR ENTORNO VIRTUAL
+Conjunto: (Identificador 1-023-25-000360) Licencia CC BY 4.0
 
-source .venv/Scripts/activate
+Descargado el 2/11/2026
 
-INSTALAR DEPENDENCIAS 
+# Datasets
 
-python -m pip install -r requirements.txt
+Incidentes viales | `incidentes_viales.csv` | Accidentes de tránsito registrados por la Secretaría de Movilidad de Medellín. Cada fila es un accidente, con fecha, mes, clase, gravedad, diseño de la vía, comuna, barrio y coordenadas. | Es la fuente principal: permite contar accidentes por mes entre 2015 y 2019. 
 
-Ejercutar Jupyter Lab
+Victimas en incidentes viales | `Mede_Victimas_inci.csv` | Víctimas de accidentes de tránsito registradas por la Secretaría de Movilidad. Cada fila es una víctima, con gravedad, sexo, edad, condición, fecha, comuna y barrio. | Complementa el análisis con el número y el perfil de las víctimas en los meses críticos. 
 
-jupyter lab
+
+
 
