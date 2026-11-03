@@ -29,6 +29,10 @@ Incidentes viales | `incidentes_viales.csv` | Accidentes de tránsito registrado
 
 Victimas en incidentes viales | `Mede_Victimas_inci.csv` | Víctimas de accidentes de tránsito registradas por la Secretaría de Movilidad. Cada fila es una víctima, con gravedad, sexo, edad, condición, fecha, comuna y barrio. | Complementa el análisis con el número y el perfil de las víctimas en los meses críticos. 
 
+# MOMENTO 3:TABLA INFORME DIAGNOSTICO
 
+
+
+![alt text](../imagenes/informe_diagnistico.png)
 
 
