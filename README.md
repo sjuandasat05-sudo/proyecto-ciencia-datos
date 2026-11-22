@@ -29,6 +29,13 @@ Incidentes viales | `incidentes_viales.csv` | Accidentes de tránsito registrado
 
 Victimas en incidentes viales | `Mede_Victimas_inci.csv` | Víctimas de accidentes de tránsito registradas por la Secretaría de Movilidad. Cada fila es una víctima, con gravedad, sexo, edad, condición, fecha, comuna y barrio. | Complementa el análisis con el número y el perfil de las víctimas en los meses críticos. 
 
+# GA1-220501094-01-AA1-EV07 – Preparación, limpieza y estructuración de datos del proyecto
+# individual con Pandas
 
 
 
+
+**Limpieza y estandarización:** detectar y corregir los problemas de los datos crudos, como duplicados, valores nulos, tipos de dato incorrectos y textos mal escritos o inconsistentes. Una idea importante era investigar por qué falta un dato antes de decidir si se borra, se rellena o se deja como está.
+**Filtrado, ordenamiento y agrupación:** usar Pandas para consultar los datos limpios: seleccionar los registros que cumplen ciertas condiciones, ordenarlos y resumirlos por grupos para responder la pregunta analítica del proyecto.
+**Estructuración:** unir varias tablas relacionadas en una sola (por ejemplo, cada víctima con los datos de su accidente), validar que la unión sea correcta y guardar los resultados en formatos adecuados para seguir trabajando.
+Documentación y control de versiones: registrar cada etapa en Git con commits claros y explicar en el README qué se hizo, por qué se hizo y qué se encontró.
